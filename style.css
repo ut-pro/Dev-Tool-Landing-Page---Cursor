@@ -1,0 +1,109 @@
+:root{
+    --background-color: #14120b;
+    --main-color: #edecec;
+    --primary-color: #9a9996
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 85%;
+    margin: 0 auto;
+    color: var(--main-color);
+    background-color: var(--background-color);
+    font-family: "Carrois Gothic", sans-serif;
+}
+
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+#logo img{
+    width: 20px;
+}
+
+#logo h1{
+    font-size: 16px;
+}
+
+#mid_part{
+    flex: auto;
+}
+
+#mid_part ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 20px;
+}
+
+#mid_part ul li a{
+    font-size: 16px;
+    margin-left: 2px;
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+#mid_part ul li a:hover{
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+#end_part{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+#end_part a{
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+#end_part a:hover{
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+#end_part #signIn{
+    padding: 5px 15px;
+    font-size: 14px;
+    color: var(--main-color);
+    border: 0;
+    box-shadow: 0 0 0 0.5px var(--main-color);
+    background-color: var(--background-color);
+    border-radius: 20px;
+}
+
+#end_part #signIn:hover{
+    cursor: pointer;
+}
+
+#end_part #download{
+    padding: 5px 15px;
+    font-size: 14px;
+    border: 0;
+    color: var(--background-color);
+    background-color: var(--main-color);
+    border-radius: 20px;
+}
+
+#end_part #download:hover{
+    cursor: pointer;
+    background-color: var(--primary-color);
+}
+
