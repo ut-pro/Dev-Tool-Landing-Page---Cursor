@@ -9,7 +9,7 @@
     <link
       rel="shortcut icon"
       href="./assets/cursor_favicon.webp"
-      type="image/x-icon"
+      type="image/webp"
     />
 
     <!-- template font added -->
@@ -26,24 +26,42 @@
   <body>
     <header>
       <nav>
-        <article id="logo">
+        <div id="logo">
           <img src="./assets/cursor.png" alt="logo-icon" />
           <h1>CURSOR</h1>
-        </article>
-        <article id="mid_part">
+        </div>
+        <div id="mid_part">
           <ul>
             <li><a href="">Features</a></li>
             <li><a href="">Enterprise</a></li>
             <li><a href="">Pricing</a></li>
             <li><a href="">Resources</a></li>
           </ul>
-        </article>
-        <article id="end_part">
+        </div>
+        <div id="end_part">
           <a href="">Contact</a>
-          <button id="signIn">Sign in</button>
-          <button id="download">Download</button>
-        </article>
+          <button class="signIn">Sign in</button>
+          <button class="download">Download</button>
+        </div>
       </nav>
     </header>
+
+    <main>
+      <section class="hero_section">
+        <div class="heading_section">
+          <h1>
+            Built to make you extraordinarily productive, Cursor is the best way
+            to code with AI.
+          </h1>
+          <button>
+            Download for Windows
+            <img src="./assets/download.png" alt="download_icon" />
+          </button>
+        </div>
+        <div class="product_screenshot">
+          <img src="./assets/product_screenshot.png" alt="product_screenshot" />
+        </div>
+      </section>
+    </main>
   </body>
 </html>
